@@ -1,0 +1,26 @@
+{
+  "name": "jdvplgraphql",
+  "version": "1.0.0",
+  "description": "Curso de GraphQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdvpl/React-Avanzado-Fullstack-Next.js-Apollo-MongoDB-y-GraphQL.git"
+  },
+  "author": "jdvpl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdvpl/React-Avanzado-Fullstack-Next.js-Apollo-MongoDB-y-GraphQL/issues"
+  },
+  "homepage": "https://github.com/jdvpl/React-Avanzado-Fullstack-Next.js-Apollo-MongoDB-y-GraphQL#readme",
+  "dependencies": {
+    "apollo-server": "^3.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
