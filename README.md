@@ -9,4 +9,4 @@
 
 ### correr el proyecto
 
--- npm run dev
+- npm run dev
