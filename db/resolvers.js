@@ -22,7 +22,15 @@ const cursos = [
 // Resolvers
 const resolvers={
     Query:{
-        obtenerCursos: ()=>cursos,
+        obtenerCursos: (_,{input},ctx,info)=>{
+            console.log(input);
+
+            const resultado=cursos.filter(curso => curso.tecnologia == input.tecnologia);
+            console.log(resultado)
+
+            return resultado;
+
+        },
         obtenerTecnologia: ()=>cursos,
     }
 }
